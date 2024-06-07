@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer{
+    /* display: flex;
+    justify-content: center; */
+    padding: 20px;
+    color: white;
+    background-image: url(./loginpage.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.title{
+    text-align: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+input{
+    padding: 20px;
+    background-color:rgba(247, 239, 239, 0.116);
+    color: white;
+    cursor: pointer;
+    border: transparent;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+::placeholder{
+    color: white;
+}
+
+.buttons input{
+   width: 210px;
+   text-align: left;
+}
+.buttons{
+    display: grid;
+}
+#login{
+    background-color:rgb(63,35,138);
+}
+#forgot-password{
+    background-color:rgb(9,86,139);
+}
+.navContainer1{
+    background-image: url(./loginpage.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px ;
+}
+.navBar1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.header{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 50px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 100px 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur(2px);
+}
+.menu1{
+    display: flex;
+    justify-content:space-between;
+    
+}
+#Withdraw{
+    background-color:rgb(63,35,138);
+    color:white;
+    width: 250px;
+}
+#exit{
+    background-color: brown;
+    width: 250px;
+}
+#time-tag{
+    color: gold;
+}
+#name-tag{
+    color: blanchedalmond;
+}
+@media (max-width:576px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 100px 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        backdrop-filter: blur(2px);
+    }
+
+    .navBar1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+}
+

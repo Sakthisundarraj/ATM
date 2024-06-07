@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./atm-icon_1454-389.avif">
+    <link rel="stylesheet" href="./style.css">
+    <title>ATM Machine</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navContainer">
+            <header class="title">
+                <h1>Welcome to SSR Bank ATM</h1>
+            </header>
+
+            <login class="login">
+
+                <div class="lo1">
+                    <input placeholder="UserName" id="username">
+                </div>
+
+                <div class="lo2">
+                    <input type="password" placeholder="Password" id="password" maxlength="4">
+                </div>
+
+                <div class="buttons">
+                    <input type="button" value="Login" id="login" onclick="check()"><br>
+                    <input type="button" value="Forgot Password" id="forgot-password" maxlength="4" onclick="document.location='forgot-password.html'"><br>
+                    <input type="button" value="Login History" onclick="history()">
+                </div>
+                <ul id="history"></ul>
+            </login>
+        </nav>
+
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
