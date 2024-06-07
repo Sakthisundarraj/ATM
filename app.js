@@ -113,10 +113,14 @@ function withdrawl() {
     if (wiamount > amount) {
         alert("insufficient Balance")
     }
-    else {
+    else if(!wiamount) {
+        alert("Enter an Amount")
+    }
+    else{
         amount -= wiamount
         alert("Amount" + "  " + wiamount + "  " + "Sucessfully Withdrawn")
     }
+
 
 }
 
